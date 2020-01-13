@@ -4,4 +4,6 @@
     <string name="etEmailText">E-Mail</string>
     <string name="etPasswordText">Password</string>
     <string name="etNomeText">Nome</string>
+    <string name="navigation_drawer_open">navigation_open</string>
+    <string name="navigation_drawer_close">navigation_close</string>
 </resources>

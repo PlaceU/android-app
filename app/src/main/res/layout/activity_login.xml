@@ -3,12 +3,16 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
     <TextView
         android:id="@+id/tvPlaceU"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:background="#FF9800"
-        android:gravity="left"
+        android:gravity="bottom|center"
         android:text="PlaceU"
         android:textColor="#FFFFFF"
         android:textSize="85dp" />
