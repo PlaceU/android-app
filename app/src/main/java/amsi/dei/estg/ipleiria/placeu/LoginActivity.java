@@ -33,6 +33,16 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        Button btRegistar = findViewById(R.id.btRegistar);
+
+        btRegistar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intentRegister = new Intent (view.getContext(),RegisterActivity.class);
+                startActivity(intentRegister);
+                finish();
+            }
+        });
     }
 
     private void verificaLogin(){
