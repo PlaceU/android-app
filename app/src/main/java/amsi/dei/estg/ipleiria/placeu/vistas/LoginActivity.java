@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.placeu;
+package amsi.dei.estg.ipleiria.placeu.vistas;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import amsi.dei.estg.ipleiria.placeu.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -38,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
         btRegistar.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intentRegister = new Intent (view.getContext(),RegisterActivity.class);
+                Intent intentRegister = new Intent (view.getContext(), RegisterActivity.class);
                 startActivity(intentRegister);
                 finish();
             }

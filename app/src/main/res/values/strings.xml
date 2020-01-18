@@ -6,4 +6,5 @@
     <string name="etNomeText">Nome</string>
     <string name="navigation_drawer_open">navigation_open</string>
     <string name="navigation_drawer_close">navigation_close</string>
+    <string name="tvnome_label">Nome da Organização:</string>
 </resources>

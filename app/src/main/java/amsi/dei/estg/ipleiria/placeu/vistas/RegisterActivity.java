@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.placeu;
+package amsi.dei.estg.ipleiria.placeu.vistas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import amsi.dei.estg.ipleiria.placeu.R;
+import amsi.dei.estg.ipleiria.placeu.vistas.LoginActivity;
 
 public class RegisterActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package amsi.dei.estg.ipleiria.placeu;
+package amsi.dei.estg.ipleiria.placeu.vistas;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,10 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class RequisicoesFragment extends Fragment {
+import amsi.dei.estg.ipleiria.placeu.R;
+
+public class HistoricoFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_lista_requisicoes, container, false);
+        return inflater.inflate(R.layout.fragment_historico, container, false);
     }
 }
