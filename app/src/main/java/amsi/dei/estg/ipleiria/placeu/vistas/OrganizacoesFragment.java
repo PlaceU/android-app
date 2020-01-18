@@ -49,6 +49,7 @@ public class OrganizacoesFragment extends Fragment {
         return view;
     }
 
+
     private void mostraDetalheOrganizacao(int position){
         Intent intentDetalhe = new Intent (getContext(), DetalhesOrganizacao.class);
         intentDetalhe.putExtra("indice", position);
